@@ -24,7 +24,10 @@ const App = () => {
           <Route path="/nft" element={<Nft />} />
         </Routes>
       </div>
+      {/* <Script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></Script>
+      <Script src="https://mediafiles.botpress.cloud/6c0b34ce-2bb0-46c8-b54c-b010c7f76dac/webchat/config.js" defer></Script> */}
     </div>
+    
   )
 }
 

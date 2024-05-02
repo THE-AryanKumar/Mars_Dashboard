@@ -1,4 +1,5 @@
 import React from "react";
+import { CustomButton } from "./";
 
 function ThreadCard() {
   return (
@@ -35,6 +36,14 @@ function ThreadCard() {
         />
         <div className="ml-3">2 replies</div>
       </div>
+      <div className="mt-8"></div>
+      <a href="https://sports-crowd-funding-chat.vercel.app/" target="_blank">
+        <CustomButton
+          btnType="button"
+          title="Chat Room"
+          styles={"bg-blue-600 text-[#fcfcfc]"}
+        />
+      </a>
     </div>
   );
 }
