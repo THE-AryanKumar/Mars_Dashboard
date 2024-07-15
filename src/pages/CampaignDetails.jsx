@@ -174,14 +174,6 @@ const CampaignDetails = () => {
                 styles="w-full bg-[#7f00ff]"
                 handleClick={handleDonate}
               />
-              <a href="https://example.com">
-                <button
-                  type="button"
-                  className={`font-epilogue font-semibold text-[16px] leading-[26px] text-white min-h-[52px] px-4 rounded-[10px] ${styles}`}
-                >
-                  Join Us
-                </button>
-              </a>
             </div>
           </div>
         </div>
